@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFDF87961617321400375672 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDF87951617321400375672 /* Cocoa.framework */; };
+		DFDF87A01617321400375672 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFDF879E1617321400375672 /* InfoPlist.strings */; };
+		DFDF87A21617321400375672 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDF87A11617321400375672 /* main.m */; };
+		DFDF87A61617321400375672 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DFDF87A41617321400375672 /* Credits.rtf */; };
+		DFDF87A91617321400375672 /* LWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDF87A81617321400375672 /* LWAppDelegate.m */; };
+		DFDF87AC1617321500375672 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFDF87AA1617321500375672 /* MainMenu.xib */; };
+		DFDF87B4161732AC00375672 /* LWPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDF87B3161732AC00375672 /* LWPerson.m */; };
+		DFDF87B7161736C800375672 /* LWRosterBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDF87B6161736C800375672 /* LWRosterBrain.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DFDF87911617321400375672 /* Roster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDF87951617321400375672 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DFDF87981617321400375672 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DFDF87991617321400375672 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DFDF879A1617321400375672 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DFDF879D1617321400375672 /* Roster-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Roster-Info.plist"; sourceTree = "<group>"; };
+		DFDF879F1617321400375672 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFDF87A11617321400375672 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFDF87A31617321400375672 /* Roster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Roster-Prefix.pch"; sourceTree = "<group>"; };
+		DFDF87A51617321400375672 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DFDF87A71617321400375672 /* LWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWAppDelegate.h; sourceTree = "<group>"; };
+		DFDF87A81617321400375672 /* LWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWAppDelegate.m; sourceTree = "<group>"; };
+		DFDF87AB1617321500375672 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DFDF87B2161732AC00375672 /* LWPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPerson.h; sourceTree = "<group>"; };
+		DFDF87B3161732AC00375672 /* LWPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPerson.m; sourceTree = "<group>"; };
+		DFDF87B5161736C800375672 /* LWRosterBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWRosterBrain.h; sourceTree = "<group>"; };
+		DFDF87B6161736C800375672 /* LWRosterBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWRosterBrain.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFDF878E1617321400375672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDF87961617321400375672 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFDF87861617321400375672 = {
+			isa = PBXGroup;
+			children = (
+				DFDF879B1617321400375672 /* Roster */,
+				DFDF87941617321400375672 /* Frameworks */,
+				DFDF87921617321400375672 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFDF87921617321400375672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFDF87911617321400375672 /* Roster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFDF87941617321400375672 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFDF87951617321400375672 /* Cocoa.framework */,
+				DFDF87971617321400375672 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFDF87971617321400375672 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFDF87981617321400375672 /* AppKit.framework */,
+				DFDF87991617321400375672 /* CoreData.framework */,
+				DFDF879A1617321400375672 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DFDF879B1617321400375672 /* Roster */ = {
+			isa = PBXGroup;
+			children = (
+				DFDF87A71617321400375672 /* LWAppDelegate.h */,
+				DFDF87A81617321400375672 /* LWAppDelegate.m */,
+				DFDF87AA1617321500375672 /* MainMenu.xib */,
+				DFDF87B2161732AC00375672 /* LWPerson.h */,
+				DFDF87B3161732AC00375672 /* LWPerson.m */,
+				DFDF87B5161736C800375672 /* LWRosterBrain.h */,
+				DFDF87B6161736C800375672 /* LWRosterBrain.m */,
+				DFDF879C1617321400375672 /* Supporting Files */,
+			);
+			path = Roster;
+			sourceTree = "<group>";
+		};
+		DFDF879C1617321400375672 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFDF879D1617321400375672 /* Roster-Info.plist */,
+				DFDF879E1617321400375672 /* InfoPlist.strings */,
+				DFDF87A11617321400375672 /* main.m */,
+				DFDF87A31617321400375672 /* Roster-Prefix.pch */,
+				DFDF87A41617321400375672 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFDF87901617321400375672 /* Roster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFDF87AF1617321500375672 /* Build configuration list for PBXNativeTarget "Roster" */;
+			buildPhases = (
+				DFDF878D1617321400375672 /* Sources */,
+				DFDF878E1617321400375672 /* Frameworks */,
+				DFDF878F1617321400375672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roster;
+			productName = Roster;
+			productReference = DFDF87911617321400375672 /* Roster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFDF87881617321400375672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LW;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Lewisoft;
+			};
+			buildConfigurationList = DFDF878B1617321400375672 /* Build configuration list for PBXProject "Roster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DFDF87861617321400375672;
+			productRefGroup = DFDF87921617321400375672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFDF87901617321400375672 /* Roster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFDF878F1617321400375672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDF87A01617321400375672 /* InfoPlist.strings in Resources */,
+				DFDF87A61617321400375672 /* Credits.rtf in Resources */,
+				DFDF87AC1617321500375672 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFDF878D1617321400375672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDF87A21617321400375672 /* main.m in Sources */,
+				DFDF87A91617321400375672 /* LWAppDelegate.m in Sources */,
+				DFDF87B4161732AC00375672 /* LWPerson.m in Sources */,
+				DFDF87B7161736C800375672 /* LWRosterBrain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFDF879E1617321400375672 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFDF879F1617321400375672 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DFDF87A41617321400375672 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFDF87A51617321400375672 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DFDF87AA1617321500375672 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFDF87AB1617321500375672 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFDF87AD1617321500375672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DFDF87AE1617321500375672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DFDF87B01617321500375672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roster/Roster-Prefix.pch";
+				INFOPLIST_FILE = "Roster/Roster-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lewisoft.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DFDF87B11617321500375672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roster/Roster-Prefix.pch";
+				INFOPLIST_FILE = "Roster/Roster-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lewisoft.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFDF878B1617321400375672 /* Build configuration list for PBXProject "Roster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDF87AD1617321500375672 /* Debug */,
+				DFDF87AE1617321500375672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFDF87AF1617321500375672 /* Build configuration list for PBXNativeTarget "Roster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDF87B01617321500375672 /* Debug */,
+				DFDF87B11617321500375672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFDF87881617321400375672 /* Project object */;
+}
